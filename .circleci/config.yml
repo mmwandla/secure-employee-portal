@@ -30,8 +30,11 @@ jobs:
     steps:
       - checkout
       - run:
-          name: Install find utility
-          command: apt-get update && apt-get install -y findutils
+          name: Install SonarQube Scanner
+          command: |
+            curl -sSLo sonar-scanner.zip https://binaries.sonarsource.com/Distribution/sonar-scanner-cli/sonar-scanner-cli-4.8.0.2856-linux.zip
+            unzip sonar-scanner.zip -d ~/sonar-scanner
+            export PATH="$PATH:~/sonar-scanner/sonar-scanner-4.8.0.2856-linux/bin"
       - run: find .
       - attach_workspace:
           at: ~/workspace
