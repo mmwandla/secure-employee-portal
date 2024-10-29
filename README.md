@@ -59,10 +59,10 @@ NODE_ENV=development
 ALLOWED_ORIGINS=https://localhost:3000
 HTTPS=true
 
-4) create a .env file in customer-portal directory, add the following in the file:
+4) create a .env file in employee-portal directory, add the following in the file:
 HTTPS=true
 
-5) open a terminal and use the following commands to run the backend server and the frontend, 1) navigate to backend using this command, copy the contents within the brackets and not the brackets themself (cd customer-portal\backend), and then use the command within the brackets to start the backend server (npm start). 2) open another terminal and use the following command to navigate to the frontend (cd customer-portal), and then use the command (npm install) followed by the command (npm start). your frontend will open in your default or open browser.
+5) open a terminal and use the following commands to run the backend server and the frontend, 1) navigate to backend using this command, copy the contents within the brackets and not the brackets themself (cd employee-portal\backend), and then use the command within the brackets to install (npm install) and then start the backend server (npm start). 2) open another terminal and use the following command to navigate to the frontend (cd employee-portal), and then use the command (npm install) followed by the command (npm start). your frontend will open in your default or open browser.
 
 --> step 5 assumes that node is now properly installed on your machine, the commands wont work if it isn't. it also assumes your project is properly configured as per the instructions and you are at the root of the project.
 
@@ -73,10 +73,9 @@ HTTPS=true
 7) The app will now run and you can use it.
 
 # Functional Requirements:
-* Customer login using account number and password.
-* Customer registration using full name, id number, account number, and password.
-* Customer payment creation using amount, currency code, provider, recipient account number, and swift code.
-* Customer past payments listed.
+* Employee login using account number and password.
+* Customer payments listed.
+* Verify SWIFT code and submit customer payment to SWIFT.
 
 # Non-Functional Requirements:
 *Security: password security with hashing and salting, whitelist input using regex patterns, serve traffic SSL, 
