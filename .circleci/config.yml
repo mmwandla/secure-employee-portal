@@ -29,6 +29,9 @@ jobs:
     resource_class: small
     steps:
       - checkout
+      - run:
+          name: Install find utility
+          command: apk add --no-cache findutils
       - run: find .
       - attach_workspace:
           at: ~/workspace
