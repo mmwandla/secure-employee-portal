@@ -11,7 +11,7 @@ jobs:
     docker:
       # Specify the version you desire here
       # See: https://circleci.com/developer/images/image/cimg/base
-      - image: cimg/base:current
+      - image: cimg/openjdk:17.0
 
     # Add steps to the job
     # See: https://circleci.com/docs/jobs-steps/#steps-overview & https://circleci.com/docs/configuration-reference/#steps
@@ -29,6 +29,9 @@ jobs:
     resource_class: small
     steps:
       - checkout
+      - run:
+          name: Install required utilities
+          command: apt-get update && apt-get install -y unzip curl
       - run:
           name: Install SonarQube Scanner
           command: |
