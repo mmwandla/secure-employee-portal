@@ -37,10 +37,10 @@ This project is for creating a secure employee payment portal in an internationa
 * create database
 after installing MySQL and establishing connectiong server, create database, use database, and view tables in database with these scripts:
 
-CREATE DATABASE employee_portal;
-USE employee_portal;
-SELECT * FROM users;
-SELECT * FROM payments;
+* CREATE DATABASE employee_portal;
+* USE employee_portal;
+* SELECT * FROM users;
+* SELECT * FROM payments;
 
 --> instructions to run
 
