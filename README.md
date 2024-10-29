@@ -4,6 +4,7 @@
 # Contents:
 * Purpose
 * Authors
+* Default Login Details for Testing
 * GitHub Repo and YouTube Demo Video Links
 * Project Requirements
 * Installation Instructions
@@ -19,6 +20,10 @@ This project is for creating a secure employee payment portal in an internationa
 * Wandile Soji, ST10025655@vcconnect.edu.za
 * Mpumelelo Mjwara, ST10084574@vcconnect.edu.za
 * Tawanda Mafuta, ST10080913+@vcconnect.edu.za
+
+# Default Login Details for Testing
+* Employee Account Number: 123456
+* Password: password
 
 # GitHub Repo and YouTube Links:
 * https://github.com/mmwandla/secure-employee-portal
