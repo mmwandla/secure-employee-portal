@@ -25,7 +25,7 @@ This project is for creating a secure employee payment portal in an internationa
 * Employee Account Number: 123456
 * Password: password
 
-# GitHub Repo and YouTube Links:
+# GitHub Repo and YouTube Demo Vid Links:
 * https://github.com/mmwandla/secure-employee-portal
 * 
 
