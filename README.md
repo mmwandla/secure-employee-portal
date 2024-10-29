@@ -13,7 +13,7 @@
 * References
 
 # Purpose:
-This project is for creating a secure employee payment portal in an international payments portal
+This project is for creating a secure employee portal in an international payments portal
 
 # Authors:
 * Mthokozisi Mwandla, ST10084814@vcconnect.edu.za
