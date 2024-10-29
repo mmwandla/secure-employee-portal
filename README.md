@@ -1,4 +1,4 @@
-# International Payments Portal, Customer Portal
+# International Payments Portal, Employee Portal
 # Version 1
 
 # Contents:
