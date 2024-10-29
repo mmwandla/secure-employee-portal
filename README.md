@@ -57,7 +57,7 @@ after installing MySQL and establishing connectiong server, create database, use
 MYSQL_HOST=localhost
 MYSQL_USER=root (change this to your username if it isn't root, delete this message and the brackets afterwards)
 MYSQL_PASSWORD= (add your password for MySQL connection)
-MYSQL_DATABASE=international_payments_portal (you will have to create this database in MySQL, use the exact name here)
+MYSQL_DATABASE=employee_portal (you will have to create this database in MySQL, use the exact name here)
 JWT_SECRET= (generate a jwt secret and place it here)
 PORT=443
 NODE_ENV=development
