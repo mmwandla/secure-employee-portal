@@ -29,6 +29,10 @@ This project is for creating a secure employee portal in an international paymen
 * https://github.com/mmwandla/secure-employee-portal
 * https://youtu.be/Y2X7jGg0zec
 
+* Customer Portal Links:
+* https://github.com/mmwandla/international-payments-portal
+* https://youtu.be/onewNlm5Ry4
+
 # Project Requirements:
 * MySQL installed
 * Node installed
