@@ -27,7 +27,7 @@ This project is for creating a secure employee portal in an international paymen
 
 # GitHub Repo and YouTube Demo Vid Links:
 * https://github.com/mmwandla/secure-employee-portal
-* 
+* https://youtu.be/Y2X7jGg0zec
 
 # Project Requirements:
 * MySQL installed
