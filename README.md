@@ -19,7 +19,7 @@ This project is for creating a secure employee portal in an international paymen
 * Mthokozisi Mwandla, ST10084814@vcconnect.edu.za
 * Wandile Soji, ST10025655@vcconnect.edu.za
 * Mpumelelo Mjwara, ST10084574@vcconnect.edu.za
-* Tawanda Mafuta, ST10080913+@vcconnect.edu.za
+* Tawanda Mafuta, ST10080913@vcconnect.edu.za
 
 # Default Login Details for Testing
 * Employee Account Number: 123456
